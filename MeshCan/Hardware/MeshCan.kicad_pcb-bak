@@ -232,7 +232,7 @@
   )
 
   (module _MT_QFN50P700X700-49N-MeshThingWPadVias (layer F.Cu) (tedit 525F6B6B) (tstamp 52B461AC)
-    (at 149 104.07 270)
+    (at 148.9 104.07 270)
     (path /51BB00C4)
     (clearance 0.2032)
     (attr smd)
@@ -372,7 +372,7 @@
   )
 
   (module _MT_Wuerth748421245-A (layer F.Cu) (tedit 5260474D) (tstamp 51CBAD5D)
-    (at 149 96.65)
+    (at 148.9 96.65)
     (path /51BB20BE)
     (attr smd)
     (fp_text reference B1 (at -0.82 -0.66) (layer F.SilkS)
@@ -529,7 +529,7 @@
   )
 
   (module SMD_Packages:SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 52B1370B)
-    (at 149.45 98.53 270)
+    (at 149.35 98.53 270)
     (path /51BB0A6C)
     (attr smd)
     (fp_text reference C5 (at 0 0 270) (layer F.SilkS)
@@ -556,7 +556,7 @@
   )
 
   (module SMD_Packages:SM0402_c (layer F.Cu) (tedit 516FD0AE) (tstamp 52B13716)
-    (at 148.55 98.53 270)
+    (at 148.45 98.53 270)
     (path /51BB0A79)
     (attr smd)
     (fp_text reference C6 (at 0 0 270) (layer F.SilkS)
