@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Thu 19 Dec 2013 16:02:36 EST
+
+BeginCmp
+TimeStamp = /52B26C06;
+Reference = A1;
+ValeurCmp = ANTENNA;
+IdModule  = _MT_MeshThing:_MT_IFA-2.4GHzPCBAntenna;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB20BE;
+Reference = B1;
+ValeurCmp = Balun;
+IdModule  = _MT_Wuerth748421245-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB02F2;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0317;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB05D0;
+Reference = C3;
+ValeurCmp = 10p;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB05DD;
+Reference = C4;
+ValeurCmp = 10p;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0A6C;
+Reference = C5;
+ValeurCmp = 22p;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0A79;
+Reference = C6;
+ValeurCmp = 22p;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE8D06;
+Reference = C7;
+ValeurCmp = 22p;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE8D1F;
+Reference = C8;
+ValeurCmp = 22p;
+IdModule  = SMD_Packages:SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB00C4;
+Reference = IC1;
+ValeurCmp = ATMEGA2564/1284/644RFR2;
+IdModule  = _MT_QFN50P700X700-49N-MeshThingWPadVias;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B25E05;
+Reference = P1;
+ValeurCmp = DIL32;
+IdModule  = _MT_MC_Pretty:_MC_CanFootprint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1C5E;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B27D84;
+Reference = S1;
+ValeurCmp = RFShield;
+IdModule  = _MT_MC_Pretty:_MT_MC_EMIShield-16.5x16.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B2759E;
+Reference = XTAL1;
+ValeurCmp = CRYSTAL_SMD-TSX3225;
+IdModule  = _MT_CSM-3X-Crystal;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE8BFD;
+Reference = XTAL2;
+ValeurCmp = 32kHz;
+IdModule  = _MT_TF32D-32768-Crystal;
+EndCmp
+
+EndListe
