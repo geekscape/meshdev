@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Thu 19 Dec 2013 16:02:36 EST
+Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Sun 22 Dec 2013 15:20:43 EST
 
 BeginCmp
 TimeStamp = /52B26C06;
@@ -71,6 +71,34 @@ IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
+TimeStamp = /52B65D33;
+Reference = F1;
+ValeurCmp = CONN_1;
+IdModule  = _MT_MC_Pretty:_MT_Fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B65D45;
+Reference = F2;
+ValeurCmp = CONN_1;
+IdModule  = _MT_MC_Pretty:_MT_Fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B65D55;
+Reference = F3;
+ValeurCmp = CONN_1;
+IdModule  = _MT_MC_Pretty:_MT_Fiducial;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B66679;
+Reference = H1;
+ValeurCmp = ICSP;
+IdModule  = _MT_MC_Pretty:_MC_pin_pad_3x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /51BB00C4;
 Reference = IC1;
 ValeurCmp = ATMEGA2564/1284/644RFR2;
@@ -78,9 +106,9 @@ IdModule  = _MT_QFN50P700X700-49N-MeshThingWPadVias;
 EndCmp
 
 BeginCmp
-TimeStamp = /52B25E05;
+TimeStamp = /52B3D926;
 Reference = P1;
-ValeurCmp = DIL32;
+ValeurCmp = CONN34;
 IdModule  = _MT_MC_Pretty:_MC_CanFootprint;
 EndCmp
 

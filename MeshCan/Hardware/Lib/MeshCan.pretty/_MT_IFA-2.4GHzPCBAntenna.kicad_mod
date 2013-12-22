@@ -1,9 +1,15 @@
 (module _MT_IFA-2.4GHzPCBAntenna (layer F.Cu)
-  (fp_text reference **REF (at 0 -3.84) (layer F.SilkS)
+  (fp_text reference **REF (at 0 -3.84) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 4.32) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text user "Comment Line - Ground plane fill 2nd layer below middle of line." (at 1.84 5.64) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text user CuKeepout (at 7.89 -3.48) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user ViaToGnd (at -6.63 3.33) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -14,10 +20,10 @@
   (fp_text user "FeedPoint-50 Ohm" (at -0.57 2.42) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (fp_line (start 7.6 -2.85) (end -7.6 -2.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start 7.6 2.85) (end 7.6 -2.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -7.6 2.85) (end 7.6 2.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -7.6 2.85) (end -7.6 -2.85) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.6 -2.85) (end -7.6 -2.85) (layer Eco1.User) (width 0.15))
+  (fp_line (start 7.6 2.85) (end 7.6 -2.85) (layer Eco1.User) (width 0.15))
+  (fp_line (start -7.6 2.85) (end 7.6 2.85) (layer Eco1.User) (width 0.15))
+  (fp_line (start -7.6 2.85) (end -7.6 -2.85) (layer Eco1.User) (width 0.15))
   (pad "" smd rect (at 0.15 -0.73) (size 0.5 2.64) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 2.35 -0.73) (size 0.5 2.64) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 4.85 -0.73) (size 0.5 2.64) (layers F.Cu F.Paste F.Mask))

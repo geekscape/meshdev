@@ -1,8 +1,8 @@
 (module _MC_CanFootprint-34Pin (layer F.Cu)
-  (fp_text reference _MC_CanFootprint (at 0 0) (layer F.SilkS)
+  (fp_text reference _MC_CanFootprint (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS)
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_line (start -9.55 12.325) (end -9.55 -12.325) (layer Cmts.User) (width 0.15))
